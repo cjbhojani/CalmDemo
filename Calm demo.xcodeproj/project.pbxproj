@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5B65C1F5B9736654301AC7B /* Pods_Calm_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEC26049B6AFBEEF9FA1F2F /* Pods_Calm_demo.framework */; };
+		F41BB170295C8CBF00470DA6 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41BB16F295C8CBF00470DA6 /* HomeVC.swift */; };
+		F426FEA0295C202800216EEE /* pay_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = F426FE9F295C202800216EEE /* pay_animation.json */; };
+		F44A4C49295BE9B3006E7C08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A4C48295BE9B3006E7C08 /* AppDelegate.swift */; };
+		F44A4C4B295BE9B3006E7C08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A4C4A295BE9B3006E7C08 /* SceneDelegate.swift */; };
+		F44A4C4D295BE9B3006E7C08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A4C4C295BE9B3006E7C08 /* ViewController.swift */; };
+		F44A4C50295BE9B3006E7C08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44A4C4E295BE9B3006E7C08 /* Main.storyboard */; };
+		F44A4C52295BE9B7006E7C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44A4C51295BE9B7006E7C08 /* Assets.xcassets */; };
+		F44A4C55295BE9B7006E7C08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44A4C53295BE9B7006E7C08 /* LaunchScreen.storyboard */; };
+		F4C68073295BF1A800F8F4E4 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C68072295BF1A800F8F4E4 /* Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8BE8169D4A3A9824CBB0C892 /* Pods-Calm demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calm demo.debug.xcconfig"; path = "Target Support Files/Pods-Calm demo/Pods-Calm demo.debug.xcconfig"; sourceTree = "<group>"; };
+		AAEC26049B6AFBEEF9FA1F2F /* Pods_Calm_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calm_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F2CED7CB6D95598EF47461 /* Pods-Calm demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calm demo.release.xcconfig"; path = "Target Support Files/Pods-Calm demo/Pods-Calm demo.release.xcconfig"; sourceTree = "<group>"; };
+		F41BB16F295C8CBF00470DA6 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		F426FE9F295C202800216EEE /* pay_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pay_animation.json; sourceTree = "<group>"; };
+		F44A4C45295BE9B3006E7C08 /* Calm demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calm demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44A4C48295BE9B3006E7C08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F44A4C4A295BE9B3006E7C08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F44A4C4C295BE9B3006E7C08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F44A4C4F295BE9B3006E7C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F44A4C51295BE9B7006E7C08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F44A4C54295BE9B7006E7C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F44A4C56295BE9B7006E7C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C68072295BF1A800F8F4E4 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F44A4C42295BE9B3006E7C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B65C1F5B9736654301AC7B /* Pods_Calm_demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		448CB323235AF28F692B731F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAEC26049B6AFBEEF9FA1F2F /* Pods_Calm_demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CA4574FA9662A0155659467 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BE8169D4A3A9824CBB0C892 /* Pods-Calm demo.debug.xcconfig */,
+				E8F2CED7CB6D95598EF47461 /* Pods-Calm demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F44A4C3C295BE9B3006E7C08 = {
+			isa = PBXGroup;
+			children = (
+				F44A4C47295BE9B3006E7C08 /* Calm demo */,
+				F44A4C46295BE9B3006E7C08 /* Products */,
+				7CA4574FA9662A0155659467 /* Pods */,
+				448CB323235AF28F692B731F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F44A4C46295BE9B3006E7C08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F44A4C45295BE9B3006E7C08 /* Calm demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F44A4C47295BE9B3006E7C08 /* Calm demo */ = {
+			isa = PBXGroup;
+			children = (
+				F426FE9F295C202800216EEE /* pay_animation.json */,
+				F44A4C48295BE9B3006E7C08 /* AppDelegate.swift */,
+				F44A4C4A295BE9B3006E7C08 /* SceneDelegate.swift */,
+				F44A4C4C295BE9B3006E7C08 /* ViewController.swift */,
+				F41BB16F295C8CBF00470DA6 /* HomeVC.swift */,
+				F4C68072295BF1A800F8F4E4 /* Extension.swift */,
+				F44A4C4E295BE9B3006E7C08 /* Main.storyboard */,
+				F44A4C51295BE9B7006E7C08 /* Assets.xcassets */,
+				F44A4C53295BE9B7006E7C08 /* LaunchScreen.storyboard */,
+				F44A4C56295BE9B7006E7C08 /* Info.plist */,
+			);
+			path = "Calm demo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F44A4C44295BE9B3006E7C08 /* Calm demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44A4C59295BE9B7006E7C08 /* Build configuration list for PBXNativeTarget "Calm demo" */;
+			buildPhases = (
+				CE5B162DCF7A7AC6716D29EE /* [CP] Check Pods Manifest.lock */,
+				F44A4C41295BE9B3006E7C08 /* Sources */,
+				F44A4C42295BE9B3006E7C08 /* Frameworks */,
+				F44A4C43295BE9B3006E7C08 /* Resources */,
+				B58DC807C69CD154491BB0B2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calm demo";
+			productName = "Calm demo";
+			productReference = F44A4C45295BE9B3006E7C08 /* Calm demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F44A4C3D295BE9B3006E7C08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F44A4C44295BE9B3006E7C08 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F44A4C40295BE9B3006E7C08 /* Build configuration list for PBXProject "Calm demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F44A4C3C295BE9B3006E7C08;
+			productRefGroup = F44A4C46295BE9B3006E7C08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F44A4C44295BE9B3006E7C08 /* Calm demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F44A4C43295BE9B3006E7C08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44A4C55295BE9B7006E7C08 /* LaunchScreen.storyboard in Resources */,
+				F44A4C52295BE9B7006E7C08 /* Assets.xcassets in Resources */,
+				F44A4C50295BE9B3006E7C08 /* Main.storyboard in Resources */,
+				F426FEA0295C202800216EEE /* pay_animation.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B58DC807C69CD154491BB0B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Calm demo/Pods-Calm demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Calm demo/Pods-Calm demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Calm demo/Pods-Calm demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE5B162DCF7A7AC6716D29EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Calm demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F44A4C41295BE9B3006E7C08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44A4C4D295BE9B3006E7C08 /* ViewController.swift in Sources */,
+				F41BB170295C8CBF00470DA6 /* HomeVC.swift in Sources */,
+				F44A4C49295BE9B3006E7C08 /* AppDelegate.swift in Sources */,
+				F44A4C4B295BE9B3006E7C08 /* SceneDelegate.swift in Sources */,
+				F4C68073295BF1A800F8F4E4 /* Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F44A4C4E295BE9B3006E7C08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F44A4C4F295BE9B3006E7C08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F44A4C53295BE9B7006E7C08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F44A4C54295BE9B7006E7C08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F44A4C57295BE9B7006E7C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F44A4C58295BE9B7006E7C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F44A4C5A295BE9B7006E7C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE8169D4A3A9824CBB0C892 /* Pods-Calm demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BAZQL5N3K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Calm demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Naaz.Calm-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F44A4C5B295BE9B7006E7C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F2CED7CB6D95598EF47461 /* Pods-Calm demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BAZQL5N3K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Calm demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Naaz.Calm-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F44A4C40295BE9B3006E7C08 /* Build configuration list for PBXProject "Calm demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44A4C57295BE9B7006E7C08 /* Debug */,
+				F44A4C58295BE9B7006E7C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44A4C59295BE9B7006E7C08 /* Build configuration list for PBXNativeTarget "Calm demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44A4C5A295BE9B7006E7C08 /* Debug */,
+				F44A4C5B295BE9B7006E7C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F44A4C3D295BE9B3006E7C08 /* Project object */;
+}
